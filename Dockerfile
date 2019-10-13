@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jre-11.0.2.9-alpine
+FROM adoptopenjdk/openjdk13:jre-13_33-alpine
 
 RUN adduser -D -u 1000 localUser
 
